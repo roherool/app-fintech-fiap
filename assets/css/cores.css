@@ -1,0 +1,53 @@
+.caixa {
+  border: 1px solid black;
+  color: #fff;
+  position: relative;
+  float: left;
+  height: 50px;
+  width: 90px;
+}
+
+#vermelho {
+  background-color: rgb(255, 0, 0);
+}
+
+#amarelo {
+  background-color: #ff0;
+}
+
+#cinza {
+  background-color: #c0c0c0;
+}
+
+#verde {
+  /* H (Matriz) onde 360 é a cor vermelha, 120 é verde, 240 é azul
+     S (Saturação) 0% próximo do cinza e 100% a cor em sua saturação máxima
+     L (Brilho) 0% preto e 100% branco 
+  */
+  background-color: hsl(120, 100%, 50%);
+}
+
+#darkOrchid {
+  background-color: darkorchid;
+  color: #fff;
+}
+
+#blue0 {
+  background-color: rgba(0, 0, 255, 0);
+}
+
+#blue02 {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+#blue05 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#blue07 {
+  background-color: rgba(0, 0, 255, 0.7);
+}
+
+#blue1 {
+  background-color: rgba(0, 0, 255, 1);
+}

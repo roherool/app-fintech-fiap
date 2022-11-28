@@ -1,0 +1,35 @@
+div.caixa-texto {
+  /*propriedades para definir dimensões, posicionamento
+	e bordas das caixas. Serão explicados adiante*/
+  width: 120px;
+  height: 50px;
+  position: relative;
+  float: left;
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
+div#texto1 {
+  font-size: 20px;
+  /*Unidade absoluta*/
+}
+
+div#texto2 {
+  font-size: 5mm;
+  /*Unidade absoluta*/
+}
+
+div#texto3 {
+  font-size: 0.8em;
+  /*Unidade relativa*/
+}
+
+div#texto4 {
+  font-size: 5vw;
+  /*Unidade relativa*/
+}
+
+div#texto5 {
+  font-size: 5vmin;
+  /*Unidade relativa*/
+}
