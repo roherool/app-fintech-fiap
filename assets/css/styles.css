@@ -13,23 +13,6 @@ main {
   margin: 20px;
 }
 
-form fieldset {
-  padding: 20px;
-  border-radius: 6px;
-}
-
-#retangulo {
-  background-color: #DEB887;
-  border: 2px solid black;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  height: 100px;
-  width: 100px;
-}
-
 @media screen {
   article {
     position: absolute;
@@ -70,7 +53,7 @@ form fieldset {
 
   div.logo {
     width: 570px;
-    background-image: url('imagens/logofiap_grande.png');
+    background-image: url("imagens/logofiap_grande.png");
     height: 90px;
   }
 
@@ -93,11 +76,7 @@ form fieldset {
   }
 }
 
-@media screen and (max-device-width: 360px)
-
-/*Samsung Galaxy S4*/
-  {
-
+@media screen and (max-device-width: 360px) /*Samsung Galaxy S4*/ {
   header p,
   header time,
   aside {
@@ -111,7 +90,7 @@ form fieldset {
 
   div.logo {
     width: 315px;
-    background-image: url('imagens/logofiap_pequeno.png');
+    background-image: url("imagens/logofiap_pequeno.png");
     height: 90px;
   }
 
