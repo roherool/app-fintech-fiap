@@ -5,20 +5,140 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../assets/css/styles.css">
-	<script src="/assets/js/ajax1.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" id="bootstrap-css">
+	<link rel="stylesheet" href="./assets/styles/home.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 	<title>Fintech | Home</title>
 </head>
 
 <body>
-	<header>
-		<h1 class="btn btn-primary">LOGOMARCA</h1>
-	</header>
+	<div class="container vh-100">
+		<!-- Navigation -->
+		<div>
+			<header class="topbar">
+				<div class="container">
+					<div class="row">
+						<!-- social icon-->
+						<div class="col-sm-12">
+							<ul class="social-network">
+								<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+								<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+				<div class="container">
+					<a class="navbar-brand" style="margin-top: -40px;" rel="nofollow" href="#">
+						<div class="px-5 ms-xl-4 d-flex align-items-center justify-content-center">
+							<i class="ph-chart-line-up-bold" style="font-size: 44px; color: #FFFFFF;"></i>
+							<span class="h1 fw-bold mb-0" style="color: #FFFFFF">Finance</span>
+						</div>
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+						aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
 
-	<main>
+						<ul class="navbar-nav ml-auto">
 
-	</main>
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Início
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Soluções</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sobre</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contato</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div id="carouselCaptions" class="carousel slide" data-bs-ride="false" data-interval="3000">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+					aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/image/finance.jpg" class="d-block w-100 carousel-image" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="display-4">First slide label</h1>
+						<p>Some representative placeholder content for the first slide.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/image/finance.jpg" class="d-block w-100 carousel-image" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="display-4">Second slide label</h1>
+						<p>Some representative placeholder content for the second slide.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/image/finance.jpg" class="d-block w-100 carousel-image" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1 class="display-4">Third slide label</h1>
+						<p>Some representative placeholder content for the third slide.</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!-- <section class="w-100">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="jumbotron jumbotron-fluid w-100 mt-5 p-5">
+						<h1 class="display-4 text-primary">Olá, somos a Finance!</h1>
+						<p class="lead">A maior plataforma para soluções de meio de pagamentos!</p>
+						<hr class="my-4">
+						<p>Oferecemos as melhores soluções de meio de pagamentos para o mercado corporativo e pessoas
+							autônomas, aqui você encontra todo o controle e agilidade que o seu negócio precisa. Nós podemos te
+							ajudar.</p>
+						<p class="lead mt-5">
+							<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+	</div>
+
+	<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://unpkg.com/phosphor-icons"></script>
+	<script type="module" src="./controllers/home.mjs"></script>
 </body>
 
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <title>Fintech | Login</title>
+</head>
+
+<body>
+  <section class="vh-100 vw-100">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 bg-black px-0 d-none d-sm-block">
+          <img src="../assets/image/6962043.jpg" class="w-100 vh-100 border"
+            style="object-fit: cover; object-position: right;" alt="Imagem de abertura do login">
+        </div>
+
+        <div class="col-sm-6 d-flex flex-column align-items-center justify-content-center">
+          <div class="px-5 ms-xl-4 d-flex align-items-center justify-content-center">
+            <i class="ph-chart-line-up-bold" style="font-size: 44px; color: #FF735C;"></i>
+            <span class="h1 fw-bold mb-0" style="color: #FF735C">Finance</span>
+          </div>
+
+          <div class="h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+            <form action="login.html" style="width: 23rem">
+
+              <h3 class="mb-3 pb-3 text-success" style="letter-spacing: 1px;">Login</h3>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="E-mail"
+                  aria-describedby="emailHelp">
+                <label class="form-label" for="inputEmail">E-mail</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Senha">
+                <label for="inputPassword">Senha</label>
+              </div>
+
+              <div class="checkbox mb-3">
+                <input type="checkbox" class="form-check-input" id="check" name="check">
+                <label class="form-check-label text-secondary link-primary" for="check">Lembrar de mim</label>
+              </div>
+
+              <div class="pt-1 mb-3">
+                <button type="submit" class="btn btn-lg btn-success w-100 fw-normal">Entrar</button>
+              </div>
+
+              <p class="small pt-lg-0"><a href="forget.html"
+                  class="text-decoration-none link-success text-secondary">Recuperar
+                  senha?</a></p>
+
+              <p class="mt-5" style="color: #FF735C">Não tem uma conta? <a href="register.html"
+                  class="link-success text-secondary">Registre-se
+                  aqui</a>
+              </p>
+            </form>
+
+            <div class="alert alert-success mt-3" role="alert" style="display: none">
+              <!-- Empty -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <script type="module" src="../controllers/login.mjs"></script>
+</body>
+
+</html>
